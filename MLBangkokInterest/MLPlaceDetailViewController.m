@@ -52,11 +52,7 @@
 
 - (IBAction)call:(id)sender {
     NSURL *phoneURL = [NSURL URLWithString:[NSString stringWithFormat:@"tel://%@", self.place.telephone]];
-    if ([[UIApplication sharedApplication] canOpenURL:phoneURL]) {
-        [[UIApplication sharedApplication] openURL:phoneURL];
-    } else {
-        self.phoneButton.enabled = NO;
-    }
+    [[UIApplication sharedApplication] openURL:phoneURL];
 }
 
 - (IBAction)openWeb:(id)sender {
