@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		945D533D276D6663EADE5F54 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9154B9780AEA550D41CADB78 /* libPods.a */; };
 		DD5447CB1B63E84A00AA69F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5447CA1B63E84A00AA69F0 /* main.m */; };
 		DD5447CE1B63E84A00AA69F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5447CD1B63E84A00AA69F0 /* AppDelegate.m */; };
-		DD5447D11B63E84A00AA69F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5447D01B63E84A00AA69F0 /* ViewController.m */; };
+		DD5447D11B63E84A00AA69F0 /* BangkokPlacesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5447D01B63E84A00AA69F0 /* BangkokPlacesViewController.m */; };
 		DD5447D41B63E84A00AA69F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5447D21B63E84A00AA69F0 /* Main.storyboard */; };
 		DD5447D61B63E84A00AA69F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD5447D51B63E84A00AA69F0 /* Images.xcassets */; };
 		DD5447D91B63E84A00AA69F0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD5447D71B63E84A00AA69F0 /* LaunchScreen.xib */; };
 		DD5447E51B63E84A00AA69F0 /* MLBangkokInterestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5447E41B63E84A00AA69F0 /* MLBangkokInterestTests.m */; };
+		DD9A87B21B649B3B0043C6E3 /* MLPlace.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9A87B11B649B3B0043C6E3 /* MLPlace.m */; };
+		DD9A87BB1B64A79E0043C6E3 /* MLFoursquareAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9A87BA1B64A79E0043C6E3 /* MLFoursquareAPIManager.m */; };
+		DD9A87BF1B64BDB10043C6E3 /* MLPlaceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9A87BE1B64BDB10043C6E3 /* MLPlaceCell.m */; };
+		DD9A87C21B64D1770043C6E3 /* MLPlaceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9A87C11B64D1770043C6E3 /* MLPlaceDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +32,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9154B9780AEA550D41CADB78 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD5447C51B63E84A00AA69F0 /* MLBangkokInterest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLBangkokInterest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD5447C91B63E84A00AA69F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD5447CA1B63E84A00AA69F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DD5447CC1B63E84A00AA69F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DD5447CD1B63E84A00AA69F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DD5447CF1B63E84A00AA69F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DD5447D01B63E84A00AA69F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD5447CF1B63E84A00AA69F0 /* BangkokPlacesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BangkokPlacesViewController.h; sourceTree = "<group>"; };
+		DD5447D01B63E84A00AA69F0 /* BangkokPlacesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BangkokPlacesViewController.m; sourceTree = "<group>"; };
 		DD5447D31B63E84A00AA69F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD5447D51B63E84A00AA69F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DD5447D81B63E84A00AA69F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		DD5447DE1B63E84A00AA69F0 /* MLBangkokInterestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLBangkokInterestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD5447E31B63E84A00AA69F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD5447E41B63E84A00AA69F0 /* MLBangkokInterestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLBangkokInterestTests.m; sourceTree = "<group>"; };
+		DD9A87B01B649B3B0043C6E3 /* MLPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLPlace.h; sourceTree = "<group>"; };
+		DD9A87B11B649B3B0043C6E3 /* MLPlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLPlace.m; sourceTree = "<group>"; };
+		DD9A87B91B64A79E0043C6E3 /* MLFoursquareAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLFoursquareAPIManager.h; sourceTree = "<group>"; };
+		DD9A87BA1B64A79E0043C6E3 /* MLFoursquareAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLFoursquareAPIManager.m; sourceTree = "<group>"; };
+		DD9A87BD1B64BDB10043C6E3 /* MLPlaceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLPlaceCell.h; sourceTree = "<group>"; };
+		DD9A87BE1B64BDB10043C6E3 /* MLPlaceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLPlaceCell.m; sourceTree = "<group>"; };
+		DD9A87C01B64D1770043C6E3 /* MLPlaceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLPlaceDetailViewController.h; sourceTree = "<group>"; };
+		DD9A87C11B64D1770043C6E3 /* MLPlaceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLPlaceDetailViewController.m; sourceTree = "<group>"; };
+		E185BBB7EC063A87E3C0F04E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F3616D86FF39F2FEB90D4C98 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				945D533D276D6663EADE5F54 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +77,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C0E785EF97B6828635A8A07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9154B9780AEA550D41CADB78 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DD5447BC1B63E84A00AA69F0 = {
 			isa = PBXGroup;
 			children = (
 				DD5447C71B63E84A00AA69F0 /* MLBangkokInterest */,
 				DD5447E11B63E84A00AA69F0 /* MLBangkokInterestTests */,
 				DD5447C61B63E84A00AA69F0 /* Products */,
+				EAA0B75265EB9DA1A14DCF01 /* Pods */,
+				7C0E785EF97B6828635A8A07 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,10 +108,11 @@
 		DD5447C71B63E84A00AA69F0 /* MLBangkokInterest */ = {
 			isa = PBXGroup;
 			children = (
+				DD9A87BC1B64AF4E0043C6E3 /* View */,
+				DD9A87B41B64A72E0043C6E3 /* Controller */,
+				DD9A87B31B64A7260043C6E3 /* Model */,
 				DD5447CC1B63E84A00AA69F0 /* AppDelegate.h */,
 				DD5447CD1B63E84A00AA69F0 /* AppDelegate.m */,
-				DD5447CF1B63E84A00AA69F0 /* ViewController.h */,
-				DD5447D01B63E84A00AA69F0 /* ViewController.m */,
 				DD5447D21B63E84A00AA69F0 /* Main.storyboard */,
 				DD5447D51B63E84A00AA69F0 /* Images.xcassets */,
 				DD5447D71B63E84A00AA69F0 /* LaunchScreen.xib */,
@@ -119,6 +147,46 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DD9A87B31B64A7260043C6E3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DD9A87B01B649B3B0043C6E3 /* MLPlace.h */,
+				DD9A87B11B649B3B0043C6E3 /* MLPlace.m */,
+				DD9A87B91B64A79E0043C6E3 /* MLFoursquareAPIManager.h */,
+				DD9A87BA1B64A79E0043C6E3 /* MLFoursquareAPIManager.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DD9A87B41B64A72E0043C6E3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DD5447CF1B63E84A00AA69F0 /* BangkokPlacesViewController.h */,
+				DD5447D01B63E84A00AA69F0 /* BangkokPlacesViewController.m */,
+				DD9A87C01B64D1770043C6E3 /* MLPlaceDetailViewController.h */,
+				DD9A87C11B64D1770043C6E3 /* MLPlaceDetailViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DD9A87BC1B64AF4E0043C6E3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD9A87BD1B64BDB10043C6E3 /* MLPlaceCell.h */,
+				DD9A87BE1B64BDB10043C6E3 /* MLPlaceCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		EAA0B75265EB9DA1A14DCF01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3616D86FF39F2FEB90D4C98 /* Pods.debug.xcconfig */,
+				E185BBB7EC063A87E3C0F04E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD5447E81B63E84A00AA69F0 /* Build configuration list for PBXNativeTarget "MLBangkokInterest" */;
 			buildPhases = (
+				86D68B1F9A933BA6AE688BA9 /* Check Pods Manifest.lock */,
 				DD5447C11B63E84A00AA69F0 /* Sources */,
 				DD5447C21B63E84A00AA69F0 /* Frameworks */,
 				DD5447C31B63E84A00AA69F0 /* Resources */,
+				32F3EF1CAECCA06AFBF22204 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,14 +284,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		32F3EF1CAECCA06AFBF22204 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86D68B1F9A933BA6AE688BA9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DD5447C11B63E84A00AA69F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD5447D11B63E84A00AA69F0 /* ViewController.m in Sources */,
+				DD5447D11B63E84A00AA69F0 /* BangkokPlacesViewController.m in Sources */,
 				DD5447CE1B63E84A00AA69F0 /* AppDelegate.m in Sources */,
+				DD9A87C21B64D1770043C6E3 /* MLPlaceDetailViewController.m in Sources */,
+				DD9A87BF1B64BDB10043C6E3 /* MLPlaceCell.m in Sources */,
+				DD9A87B21B649B3B0043C6E3 /* MLPlace.m in Sources */,
 				DD5447CB1B63E84A00AA69F0 /* main.m in Sources */,
+				DD9A87BB1B64A79E0043C6E3 /* MLFoursquareAPIManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +452,7 @@
 		};
 		DD5447E91B63E84A00AA69F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3616D86FF39F2FEB90D4C98 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MLBangkokInterest/Info.plist;
@@ -355,6 +463,7 @@
 		};
 		DD5447EA1B63E84A00AA69F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E185BBB7EC063A87E3C0F04E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MLBangkokInterest/Info.plist;
@@ -416,6 +525,7 @@
 				DD5447EA1B63E84A00AA69F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD5447EB1B63E84A00AA69F0 /* Build configuration list for PBXNativeTarget "MLBangkokInterestTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +534,7 @@
 				DD5447ED1B63E84A00AA69F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
